@@ -12,8 +12,8 @@ int main(){
     else if((c+a) > b){
         printf("Valid");
     }
-    else(
+    else{
         printf("Invalid");
-    )
+    }
     return 0;
 }
