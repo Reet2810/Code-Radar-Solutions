@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    char a, b, choice;
+    int a, b;
+    char choice;
     scanf("%d %d %c", &a, &b, &choice);
 
     switch(choice){
@@ -15,7 +16,11 @@ int main(){
             printf("%d", a*b);
             break;
         case'/':
-            printf("%d", a/b);
+            if(b == 0){
+            printf("invalid");
+            }else{
+                printf("%d", a/b);
+            }
             break;
         default:
             printf("Invalid");
