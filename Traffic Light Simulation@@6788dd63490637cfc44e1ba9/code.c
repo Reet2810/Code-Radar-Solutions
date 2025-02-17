@@ -12,7 +12,7 @@ int main(){
             printf("Go");
             break;
         case 'Y':
-            printf("Wait");
+            printf("Slow Down");
             break;
         default:
             printf("Invalid input");
