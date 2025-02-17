@@ -9,6 +9,8 @@ int main(){
     else if(((a == b) && (a != c)) && ((b == c) && (b != a)) && ((c == a) && (c != b))){
         printf("Isosceles");
     }
-    else("Scalene");
+    else{
+        printf("Scalene");
+    }
     return 0;
 }
