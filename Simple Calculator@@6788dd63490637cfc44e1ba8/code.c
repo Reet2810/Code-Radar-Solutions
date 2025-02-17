@@ -17,7 +17,7 @@ int main(){
             break;
         case'/':
             if(b == 0){
-            printf("invalid");
+            printf("Error");
             }else{
                 printf("%d", a/b);
             }
