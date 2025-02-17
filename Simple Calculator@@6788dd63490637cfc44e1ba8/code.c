@@ -18,6 +18,8 @@ int main(){
         case'/':
             printf("%d", a/b);
             break;
+        default:
+            printf("Invalid");
     }
 
     return 0;
