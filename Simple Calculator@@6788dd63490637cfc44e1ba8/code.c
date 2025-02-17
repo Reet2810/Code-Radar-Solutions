@@ -23,7 +23,7 @@ int main(){
             }
             break;
         default:
-            printf("Invalid");
+            printf("Error");
     }
 
     return 0;
